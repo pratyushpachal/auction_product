@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "pages": 7,
+  "controls": "navigation, search, filters, sorting, pagination, report links, squad download, optimizer form, comparison selection and removal",
+  "api_requests": 32,
+  "javascript_errors": [],
+  "mobile_width": 390
+}

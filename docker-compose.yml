@@ -1,0 +1,11 @@
+services:
+  scout:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - scout-data:/app/data/processed
+    environment:
+      PORT: "8000"
+volumes:
+  scout-data:

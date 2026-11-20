@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "pairs": [
+    {
+      "foreground": "text",
+      "background": "base",
+      "ratio": 21.0,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "text",
+      "background": "surface",
+      "ratio": 18.096,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "muted",
+      "background": "base",
+      "ratio": 11.178,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "muted",
+      "background": "surface",
+      "ratio": 9.632,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "purple",
+      "background": "base",
+      "ratio": 6.454,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "purple",
+      "background": "surface",
+      "ratio": 5.562,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "gold",
+      "background": "base",
+      "ratio": 12.53,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "gold",
+      "background": "surface",
+      "ratio": 10.798,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "error",
+      "background": "base",
+      "ratio": 12.44,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "error",
+      "background": "surface",
+      "ratio": 10.719,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "control_border",
+      "background": "base",
+      "ratio": 4.689,
+      "minimum": 3
+    },
+    {
+      "foreground": "control_border",
+      "background": "surface",
+      "ratio": 4.041,
+      "minimum": 3
+    }
+  ]
+}

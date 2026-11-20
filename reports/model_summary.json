@@ -1,0 +1,1860 @@
+{
+  "players": 1024,
+  "ranked_players": 293,
+  "regulation_deliveries": 116965,
+  "reference_competition": "Indian Premier League",
+  "archetypes": 4,
+  "adjustment_label": "Par-adjusted descriptive score; insufficient bridge players for league transfer",
+  "league_adjustment": [
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "reference_competition": "Indian Premier League",
+      "discipline": "batting",
+      "bridge_players": 0,
+      "minimum_bridge_players": 10,
+      "matched_calendar_years": 0,
+      "sample_balls": 0,
+      "factor": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient bridge players; par-adjusted metrics"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "reference_competition": "Indian Premier League",
+      "discipline": "bowling",
+      "bridge_players": 0,
+      "minimum_bridge_players": 10,
+      "matched_calendar_years": 0,
+      "sample_balls": 0,
+      "factor": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient bridge players; par-adjusted metrics"
+    }
+  ],
+  "backtest": {
+    "auction_test_status": "Impossible with uploaded data",
+    "auction_test_reason": "Auction dates, uncapped eligibility and sale records are absent. Match rosters do not establish auction eligibility.",
+    "status": "Insufficient data",
+    "competition": "Indian Premier League",
+    "holdout_year": "2026",
+    "train_before": "2026-01-01",
+    "minimum_training_balls": 150,
+    "minimum_holdout_balls": 60,
+    "minimum_players": 10,
+    "players": 5,
+    "balls": 891,
+    "innings": 40,
+    "top_group_players": null,
+    "top_group_sr": null,
+    "other_group_sr": null,
+    "difference": null,
+    "ci_low": null,
+    "ci_high": null,
+    "correlation": null,
+    "reason": "Insufficient data: 5 qualifying players; the descriptive holdout requires 10."
+  },
+  "venue_par": [
+    {
+      "competition": "Indian Premier League",
+      "season": "2007/08",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 5,
+      "par_score": 140.2,
+      "ci_low": 111.3276,
+      "ci_high": 169.0724,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2007/08",
+      "venue": "M Chinnaswamy Stadium, Bangalore",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2007/08",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2007/08",
+      "venue": "Punjab Cricket Association Stadium, Mohali, Chandigarh",
+      "innings": 7,
+      "par_score": 185.2857,
+      "ci_low": 153.7608,
+      "ci_high": 216.8107,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2007/08",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2007/08",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2007/08",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009",
+      "venue": "Buffalo Park, East London",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009",
+      "venue": "Diamond Oval, Kimberley",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009",
+      "venue": "Kingsmead, Durban",
+      "innings": 8,
+      "par_score": 144.125,
+      "ci_low": 115.0803,
+      "ci_high": 173.1697,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009",
+      "venue": "Mangaung Oval, Bloemfontein",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009",
+      "venue": "Newlands, Cape Town",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009",
+      "venue": "St George's Park, Port Elizabeth",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009",
+      "venue": "SuperSport Park, Centurion",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009",
+      "venue": "Wanderers Stadium, Johannesburg",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009/10",
+      "venue": "Barabati Stadium, Cuttack",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009/10",
+      "venue": "Brabourne Stadium, Mumbai",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009/10",
+      "venue": "Dr DY Patil Sports Academy, Navi Mumbai",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009/10",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 7,
+      "par_score": 160.8571,
+      "ci_low": 135.1636,
+      "ci_high": 186.5507,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009/10",
+      "venue": "Feroz Shah Kotla, Delhi",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009/10",
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009/10",
+      "venue": "M Chinnaswamy Stadium, Bangalore",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009/10",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009/10",
+      "venue": "Punjab Cricket Association Stadium, Mohali, Chandigarh",
+      "innings": 5,
+      "par_score": 168.6,
+      "ci_low": 144.642,
+      "ci_high": 192.558,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009/10",
+      "venue": "Sardar Patel Stadium, Motera, Ahmedabad",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2009/10",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2011",
+      "venue": "Dr DY Patil Sports Academy, Navi Mumbai",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2011",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 6,
+      "par_score": 140.1667,
+      "ci_low": 101.7486,
+      "ci_high": 178.5847,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2011",
+      "venue": "Feroz Shah Kotla, Delhi",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2011",
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2011",
+      "venue": "Holkar Cricket Stadium, Indore",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2011",
+      "venue": "M Chinnaswamy Stadium, Bangalore",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2011",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2011",
+      "venue": "Nehru Stadium, Kochi",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2011",
+      "venue": "Punjab Cricket Association Stadium, Mohali, Chandigarh",
+      "innings": 4,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2011",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2011",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2011",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2012",
+      "venue": "Barabati Stadium, Cuttack",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2012",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 6,
+      "par_score": 157.5,
+      "ci_low": 131.9338,
+      "ci_high": 183.0662,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2012",
+      "venue": "Feroz Shah Kotla, Delhi",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2012",
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2012",
+      "venue": "M Chinnaswamy Stadium, Bangalore",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2012",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2012",
+      "venue": "Punjab Cricket Association Stadium, Mohali, Chandigarh",
+      "innings": 6,
+      "par_score": 156.1667,
+      "ci_low": 124.7017,
+      "ci_high": 187.6317,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2012",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2012",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2012",
+      "venue": "Subrata Roy Sahara Stadium, Pune",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2012",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2013",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 6,
+      "par_score": 144.5,
+      "ci_low": 120.71,
+      "ci_high": 168.29,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2013",
+      "venue": "Feroz Shah Kotla, Delhi",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2013",
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2013",
+      "venue": "JSCA International Stadium Complex, Ranchi",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2013",
+      "venue": "M Chinnaswamy Stadium, Bangalore",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2013",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2013",
+      "venue": "Maharashtra Cricket Association Stadium, Pune",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2013",
+      "venue": "Punjab Cricket Association Stadium, Mohali, Chandigarh",
+      "innings": 6,
+      "par_score": 160.8333,
+      "ci_low": 138.1362,
+      "ci_high": 183.5304,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2013",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2013",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2013",
+      "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2013",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2014",
+      "venue": "Barabati Stadium, Cuttack",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2014",
+      "venue": "Dubai International Cricket Stadium",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2014",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 4,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2014",
+      "venue": "Feroz Shah Kotla, Delhi",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2014",
+      "venue": "M Chinnaswamy Stadium, Bangalore",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2014",
+      "venue": "Punjab Cricket Association Stadium, Mohali, Chandigarh",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2014",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2014",
+      "venue": "Sardar Patel Stadium, Motera, Ahmedabad",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2014",
+      "venue": "Sharjah Cricket Stadium",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2014",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "innings": 4,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2014",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2015",
+      "venue": "Brabourne Stadium, Mumbai",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2015",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 6,
+      "par_score": 171.8333,
+      "ci_low": 164.6108,
+      "ci_high": 179.0559,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2015",
+      "venue": "Feroz Shah Kotla, Delhi",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2015",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2015",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2015",
+      "venue": "Maharashtra Cricket Association Stadium, Pune",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2015",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2015",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2015",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2015",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2016",
+      "venue": "Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium, Visakhapatnam",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2016",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 6,
+      "par_score": 160.1667,
+      "ci_low": 126.1843,
+      "ci_high": 194.149,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2016",
+      "venue": "Feroz Shah Kotla, Delhi",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2016",
+      "venue": "Green Park, Kanpur",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2016",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2016",
+      "venue": "Maharashtra Cricket Association Stadium, Pune",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2016",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+      "innings": 7,
+      "par_score": 167.8571,
+      "ci_low": 151.0359,
+      "ci_high": 184.6784,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2016",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2016",
+      "venue": "Saurashtra Cricket Association Stadium, Rajkot",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2016",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2017",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 7,
+      "par_score": 164.0,
+      "ci_low": 147.5596,
+      "ci_high": 180.4404,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2017",
+      "venue": "Feroz Shah Kotla, Delhi",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2017",
+      "venue": "Holkar Cricket Stadium, Indore",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2017",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2017",
+      "venue": "Maharashtra Cricket Association Stadium, Pune",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2017",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+      "innings": 4,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2017",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2017",
+      "venue": "Saurashtra Cricket Association Stadium, Rajkot",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2017",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2018",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 8,
+      "par_score": 173.25,
+      "ci_low": 152.4681,
+      "ci_high": 194.0319,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2018",
+      "venue": "Feroz Shah Kotla, Delhi",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2018",
+      "venue": "Holkar Cricket Stadium, Indore",
+      "innings": 4,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2018",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2018",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2018",
+      "venue": "Maharashtra Cricket Association Stadium, Pune",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2018",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2018",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2018",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2018",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2019",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 7,
+      "par_score": 194.0,
+      "ci_low": 169.3683,
+      "ci_high": 218.6317,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2019",
+      "venue": "Feroz Shah Kotla, Delhi",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2019",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2019",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2019",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+      "innings": 7,
+      "par_score": 171.4286,
+      "ci_low": 161.0217,
+      "ci_high": 181.8354,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2019",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2019",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2019",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2020/21",
+      "venue": "Dubai International Cricket Stadium",
+      "innings": 10,
+      "par_score": 174.5,
+      "ci_low": 158.0546,
+      "ci_high": 190.9454,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2020/21",
+      "venue": "Sharjah Cricket Stadium",
+      "innings": 5,
+      "par_score": 193.0,
+      "ci_low": 151.141,
+      "ci_high": 234.859,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2020/21",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "innings": 11,
+      "par_score": 162.3636,
+      "ci_low": 140.8316,
+      "ci_high": 183.8957,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2021",
+      "venue": "Dubai International Cricket Stadium",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2021",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2021",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2021",
+      "venue": "Sharjah Cricket Stadium",
+      "innings": 4,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2021",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2021",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2022",
+      "venue": "Brabourne Stadium, Mumbai",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2022",
+      "venue": "Dr DY Patil Sports Academy, Navi Mumbai",
+      "innings": 4,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2022",
+      "venue": "Maharashtra Cricket Association Stadium, Pune",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2022",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 4,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2023",
+      "venue": "Arun Jaitley Stadium",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2023",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 7,
+      "par_score": 192.8571,
+      "ci_low": 164.2844,
+      "ci_high": 221.4299,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2023",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2023",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2023",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2023",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2023",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2024",
+      "venue": "Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium, Visakhapatnam",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2024",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2024",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 6,
+      "par_score": 204.6667,
+      "ci_low": 161.6594,
+      "ci_high": 247.6739,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2024",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2024",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2024",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2024",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2025",
+      "venue": "Arun Jaitley Stadium",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2025",
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2025",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 6,
+      "par_score": 199.1667,
+      "ci_low": 175.2504,
+      "ci_high": 223.0829,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2025",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2025",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2025",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2026",
+      "venue": "Arun Jaitley Stadium",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2026",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2026",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 6,
+      "par_score": 193.1667,
+      "ci_low": 151.6938,
+      "ci_high": 234.6395,
+      "status": "Available"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2026",
+      "venue": "MA Chidambaram Stadium",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2026",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2026",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2026",
+      "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Indian Premier League",
+      "season": "2026",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2015/16",
+      "venue": "Barabati Stadium, Cuttack",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2015/16",
+      "venue": "DRIEMS Ground, Tangi, Cuttack",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2015/16",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2017/18",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2017/18",
+      "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2017/18",
+      "venue": "Saurashtra Cricket Association Stadium, Rajkot",
+      "innings": 4,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2018/19",
+      "venue": "Emerald High School Ground, Indore",
+      "innings": 6,
+      "par_score": 175.8333,
+      "ci_low": 130.0057,
+      "ci_high": 221.661,
+      "status": "Available"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2018/19",
+      "venue": "Holkar Cricket Stadium, Indore",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2019/20",
+      "venue": "CB Patel International Cricket Stadium, Surat",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2019/20",
+      "venue": "Lalabhai Contractor Stadium, Surat",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2019/20",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 7,
+      "par_score": 153.7143,
+      "ci_low": 117.98,
+      "ci_high": 189.4486,
+      "status": "Available"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2020/21",
+      "venue": "Bandra Kurla Complex, Mumbai",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2020/21",
+      "venue": "Wankhede Stadium, Mumbai",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2021/22",
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2021/22",
+      "venue": "Nehru Stadium, Guwahati",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2022/23",
+      "venue": "Eden Gardens, Kolkata",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2022/23",
+      "venue": "Saurashtra Cricket Association Stadium, Rajkot",
+      "innings": 3,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2023/24",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2024/25",
+      "venue": "KSCA Cricket Ground, Alur",
+      "innings": 1,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    },
+    {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "season": "2024/25",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "innings": 2,
+      "par_score": null,
+      "ci_low": null,
+      "ci_high": null,
+      "status": "Insufficient data"
+    }
+  ]
+}

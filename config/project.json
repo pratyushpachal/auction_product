@@ -1,0 +1,9 @@
+{
+  "project": "KKR Scout",
+  "target_auction_year": 2027,
+  "as_of_date": "2026-11-20",
+  "raw_dir": "data/raw/cricsheet",
+  "database": "data/processed/kkr_scout.sqlite",
+  "batter_min_balls": 150,
+  "bowler_min_balls": 120
+}

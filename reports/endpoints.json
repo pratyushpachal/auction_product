@@ -1,0 +1,116 @@
+{
+  "status": "passed",
+  "endpoint_calls": [
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/docs",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/openapi.json",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/health",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/dashboard",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/players?page_size=2",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/players?page_size=2",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/players/cricsheet:bf74b130",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/players/cricsheet:bf74b130",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/players/cricsheet:0a8fce53",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/players/cricsheet:0a8fce53",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/compare?ids=cricsheet:bf74b130,cricsheet:0a8fce53",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/compare?ids=cricsheet:bf74b130,cricsheet:0a8fce53",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/squad/gaps",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/squad/gaps",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/optimize",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/optimize",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/methodology",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/templates/squad.csv",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/templates/prices.csv",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/templates/constraints.csv",
+      "status": 200
+    }
+  ],
+  "sql_reconciliation": "Dashboard counts, report/chart payloads, score intervals, optimizer sums and methodology metadata match SQL."
+}

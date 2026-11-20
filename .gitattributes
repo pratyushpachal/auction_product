@@ -1,0 +1,5 @@
+* text=auto eol=lf
+data/raw/cricsheet/*.json -text
+README.txt -text
+LICENSE.txt -text
+*.png binary

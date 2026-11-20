@@ -1,0 +1,59 @@
+[
+  {
+    "check": "Duplicate source match IDs",
+    "failures": 0,
+    "status": "pass"
+  },
+  {
+    "check": "Duplicate delivery keys",
+    "failures": 0,
+    "status": "pass"
+  },
+  {
+    "check": "Invalid run reconciliation",
+    "failures": 0,
+    "status": "pass"
+  },
+  {
+    "check": "Invalid legal ball flags",
+    "failures": 0,
+    "status": "pass"
+  },
+  {
+    "check": "Invalid bowler conceded runs",
+    "failures": 0,
+    "status": "pass"
+  },
+  {
+    "check": "Innings total or ball count mismatch",
+    "failures": 0,
+    "status": "pass"
+  },
+  {
+    "check": "Null player references",
+    "failures": 0,
+    "status": "pass"
+  },
+  {
+    "check": "Orphan player references",
+    "failures": 0,
+    "status": "pass"
+  },
+  {
+    "check": "Invalid dates",
+    "failures": 0,
+    "status": "pass"
+  },
+  {
+    "check": "Overs exceeding scheduled legal-ball count",
+    "failures": 1,
+    "status": "source exception",
+    "detail": "Inspect innings metadata.miscounted_overs; preserve source umpire miscounts."
+  },
+  {
+    "check": "Independent scorecard reconciliation",
+    "failures": null,
+    "status": "unavailable",
+    "detail": "No second-source scorecard was uploaded. Source delivery sums are checked; they are not independent verification."
+  }
+]
